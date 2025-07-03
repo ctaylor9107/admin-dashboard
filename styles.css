@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#page-container {
+    width: 100vw;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.main-layout {
+    border: 2px solid black;
+}
+
+#header {
+    grid-area: 1/2/2/5;
+}
+
+#nav-bar {
+    grid-area: 1/1/5/2;
+}
+
+#main-content {
+    grid-area: 2/2/5/5;
+}
